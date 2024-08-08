@@ -13,7 +13,7 @@ const Navbar = () => {
               <Image
                 width={80}
                 height={50}
-                src={''}
+                src={'next.svg'}
                 alt="LOGO"
                 className="border border-black"
               />

@@ -30,16 +30,9 @@ const Homepage = () => {
       </div>
       <Vedios />
       <div className="my-16">
-        {sections.map(({ name, videoSrc }) => (
+        {sections.map(({ name }) => (
           <div key={name} className="relative my-8"> {/* Adjusted to include margin for gaps */}
-            <video
-              className="absolute inset-0 w-full h-full object-cover"
-              autoPlay
-              loop
-              muted
-            >
-              <source src={videoSrc} type="video/mp4" />
-            </video>
+           
             <HomeSectionCarousel sectionName={name as 'Kids' | 'Women' | 'Black' | 'Pink' | 'Royal' | 'Home' | 'DailyNeeds' | 'Grocery' | 'Bags' | 'Kitchen'} />
           </div>
         ))}

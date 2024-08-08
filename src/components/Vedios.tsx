@@ -9,10 +9,10 @@ const Vedios = () => {
         loop
         muted
       >
-        <source src="/vedios/bg.mp4" type="video/mp4" />
+        <source src="/vedios/rename.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      <span className="absolute inset-0 flex items-center justify-center text-slate-100 text-4xl font-bold z-10">
+      <span className="absolute inset-0 flex top-20 left-44 text-white text-4xl font-bold z-10">
         Offer Available
       </span>
     </div>

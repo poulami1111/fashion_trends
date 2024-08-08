@@ -12,7 +12,7 @@ interface HomeSectionCardProps {
 
 const HomeSectionCard: React.FC<HomeSectionCardProps> = ({ product }) => {
   return (
-    <div className='cursor-pointer flex flex-col items-center gap-4 bg-[#ffbe02] rounded-lg overflow-hidden w-[18rem] mx-12 border border-gray-300'>
+    <div className='cursor-pointer flex flex-col items-center gap-4 bg-transparent rounded-lg overflow-hidden w-[18rem] mx-12 border border-gray-300'>
       <div className='h-[13rem] w-[10rem] mt-3'>
         <img
           className='object-cover object-top w-full h-full border-gray-300'

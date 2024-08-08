@@ -1,17 +1,14 @@
 'use client';
-import Navbar from '@/components/Navbar';
+import Homepage from "@/components/Homepage";
 
-import Countdown from '@/components/Countdown';
+
 
 const Page: React.FC = () => {
-  const targetDate = new Date().setHours(new Date().getHours() + 1);
+ 
   return (
     <>
-     <div className='bg-white'>
-       <Navbar/>
-       <div className="my-4">
-      <Countdown targetDate={targetDate} />
-    </div>
+     <div>
+      <Homepage/>
     </div></>
    
   

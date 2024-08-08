@@ -2,16 +2,17 @@ import React from 'react';
 import { Bars3Icon, MagnifyingGlassIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image';
 
+
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-lg">
+    <nav className="bg-white"> {/* Ensure no gradient class is applied here */}
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <a href="/" className="text-xl font-bold text-gray-800 hover:text-gray-600">
               <Image
-              width={80}
-              height={50}
+                width={80}
+                height={50}
                 src={''}
                 alt="LOGO"
                 className="border border-black"
@@ -19,19 +20,19 @@ const Navbar = () => {
             </a>
           </div>
           <div className="ml-8 flex-1">
-                <div className="relative max-w-lg mx-auto">
-                  <input
-                    type="text"
-                    name="search"
-                    id="search"
-                    className="block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm hover:placeholder-yellow-400 hover:border-yellow-400"
-                    placeholder="Search"
-                  />
-                  <div className="absolute inset-y-0 right-0 flex items-center pr-3">
-                    <MagnifyingGlassIcon className="h-5 w-5 text-gray-400 hover:text-yellow-400" aria-hidden="true" />
-                  </div>
-                </div>
+            <div className="relative max-w-lg mx-auto">
+              <input
+                type="text"
+                name="search"
+                id="search"
+                className="block w-full rounded-md border-gray-300 py-2 pl-3 pr-10 text-gray-900 placeholder-gray-500 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm hover:placeholder-yellow-400 hover:border-yellow-400"
+                placeholder="Search"
+              />
+              <div className="absolute inset-y-0 right-0 flex items-center pr-3">
+                <MagnifyingGlassIcon className="h-5 w-5 text-gray-400 hover:text-yellow-400" aria-hidden="true" />
               </div>
+            </div>
+          </div>
           <div className="hidden md:flex space-x-6">
             <a href="/" className="text-gray-800 hover:text-gray-600">
               Home

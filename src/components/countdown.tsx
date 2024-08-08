@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState, useEffect } from 'react';
 
 interface CountdownProps {
@@ -51,7 +53,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 
   return (
     <div className="flex items-center justify-center h-20 bg-gradient-to-b from-gray-500 to-black perspective-45rem">
-      <div className="text-6xl text-slate-400 font-mono  shadow-md  shadow-slate-400 transform-style-3d rotateX-15deg">
+      <div className="text-6xl text-slate-400 font-mono shadow-md shadow-slate-400 transform-style-3d rotateX-15deg">
         {formatTime(timeLeft)}
       </div>
     </div>

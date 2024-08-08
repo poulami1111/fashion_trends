@@ -9,7 +9,7 @@ const Page: React.FC = () => {
     <>
      <div className='bg-white'>
        <Navbar/>
-       <div className="App">
+       <div className="my-4">
       <Countdown targetDate={targetDate} />
     </div>
     </div></>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 interface CountdownProps {
   targetDate: number;
@@ -14,7 +14,8 @@ interface TimeLeft {
 }
 
 const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
-  const calculateTimeLeft = (): TimeLeft => {
+  // Memoize the calculateTimeLeft function to ensure its reference is stable
+  const calculateTimeLeft = useCallback((): TimeLeft => {
     const difference = targetDate - new Date().getTime();
     let timeLeft: TimeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
 
@@ -28,7 +29,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     }
 
     return timeLeft;
-  };
+  }, [targetDate]);
 
   const [timeLeft, setTimeLeft] = useState<TimeLeft>(calculateTimeLeft());
 
@@ -38,7 +39,7 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
     }, 1000);
 
     return () => clearInterval(timerId);
-  }, [targetDate]);
+  }, [calculateTimeLeft]);
 
   const formatTime = (time: TimeLeft) => {
     const formattedTime = Object.keys(time)
@@ -61,3 +62,4 @@ const Countdown: React.FC<CountdownProps> = ({ targetDate }) => {
 };
 
 export default Countdown;
+

@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
-
+import Countdown from './countdown';
 
 import Vedios from './Vedios';
 import HomeSectionCarousel from './HomeSectionCaraousel';
 
 const Homepage = () => {
-  // const targetDate = new Date().setHours(new Date().getHours() + 2);
+   const targetDate = new Date().setHours(new Date().getHours() + 2);
 
   // Ensure these section names match exactly what is defined in HomeSectionCarousel's prop types
   const sections = [
@@ -26,9 +26,9 @@ const Homepage = () => {
   return (
     <div className='bg-black'>
       <Navbar />
-      {/* <div className="my-10 ">
+       <div className="my-10 ">
         <Countdown targetDate={targetDate} />
-      </div> */}
+      </div> 
       <Vedios />
       <div className="my-16">
         {sections.map(({ name }) => (

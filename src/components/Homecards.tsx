@@ -4,6 +4,7 @@ interface Product {
   imageUrl: string;
   category: string;
   title: string;
+  offer: string;
 }
 
 interface HomeSectionCardProps {
@@ -12,8 +13,8 @@ interface HomeSectionCardProps {
 
 const HomeSectionCard: React.FC<HomeSectionCardProps> = ({ product }) => {
   return (
-    <div className='cursor-pointer flex flex-col items-center gap-4 bg-transparent rounded-lg overflow-hidden w-[18rem] mx-12 border border-gray-300'>
-      <div className='h-[13rem] w-[10rem] mt-3'>
+    <div className='cursor-pointer flex flex-col items-center gap-4 bg-transparent rounded-lg overflow-hidden w-[20rem] mx-12 border border-gray-300'>
+      <div className='h-[15rem] w-[14rem] mt-3'>
         <img
           className='object-cover object-top w-full h-full border-gray-300'
           src={product.imageUrl}
@@ -21,8 +22,8 @@ const HomeSectionCard: React.FC<HomeSectionCardProps> = ({ product }) => {
         />
       </div>
       <div className='p-4'>
-        <h3 className='text-lg font-medium text-gray-900'>{product.category}</h3>
-        <p className='mt-2 text-sm text-gray-500'>{product.title}</p>
+        <h3 className='text-2xl font-medium text-slate-100'>{product.category}</h3>
+        <p className='mt-2 right-1 text-sm text-slate-200'>{product.offer}</p>
       </div>
     </div>
   );

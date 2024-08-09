@@ -9,6 +9,7 @@ interface Product {
   category: string;
   title: string;
   path: string;
+  offer:string;
 }
 
 // Define the type for the props
@@ -47,7 +48,7 @@ const HomeSectionCarousel: React.FC<HomeSectionCarouselProps> = ({ sectionName }
 
   return (
     <div className="relative overflow-hidden">
-      <div className="text-gray-950 font-bold text-[25px] mt-10 mb-6 z-10">{sectionName}</div>
+      <div className="text-slate-50 font-bold text-[45px] mt-10 mb-6 z-10">{sectionName}</div>
       <div className="flex transition-transform duration-500" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {items}
       </div>

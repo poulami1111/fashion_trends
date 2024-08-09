@@ -64,14 +64,28 @@ const carouseldata = {
     Men: [
       {
         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/u/g/3/xxs-cwt-try-this-original-imah33knyv4eajrf.jpeg?q=70",
-        category: "Men",
+        category: "Summer Collection",
         title: "Summer Dress",
         path: "/Men/clothing/dress",
          offer:" Upto 50% off"
       },
       {
         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/wallet-card-wallet/2/l/9/magnet-button-mens-wallet-1-12-vs1a301bbbt-6-wallet-vinsage-9-original-imahfb6hphfr5zgp.jpeg?q=70",
-        category: "Men",
+        category: "Accessories",
+        title: "Accessories",
+        path: "/Men/accessories/handbag",
+         offer:" Upto 30% off"
+      },
+      {
+        imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/kurta/c/4/t/xxl-plain-kurta-triveni-creation-original-imahybf9zgnghdd6.jpeg?q=70",
+        category: "Ethnic Sets",
+        title: "Ethnic Sets",
+        path: "/Men/clothing/ethnics",
+         offer:" Upto 30% off"
+      },
+      {
+        imageUrl: "https://rukminim2.flixcart.com/image/312/312/xif0q/watch/v/g/p/-original-imagqfwbfkmamdy8.jpeg?q=70",
+        category: "Watches",
         title: "Accessories",
         path: "/Men/accessories/handbag",
          offer:" Upto 30% off"
@@ -79,49 +93,76 @@ const carouseldata = {
     ],
     Black: [
       {
-        imageUrl: "https://example.com/black-jacket.jpg",
-        category: "Black",
-        title: "Black Jacket",
+        imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/r/s/u/l-hs-esd-boy-black-1109-kaspy-original-imagm2kprcvua6qt.jpeg?q=70",
+        category: "Black shirts",
+        title: "Black",
         path: "/black/clothing/jacket",
          offer:" Upto 70% off"
       },
       {
-        imageUrl: "https://example.com/black-shoes.jpg",
-        category: "Black",
-        title: "Black Shoes",
-        path: "/black/shoes",
+        imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/q/u/b/free-kiyara-saree-hesika-unstitched-original-imahfyfugpjwstfp.jpeg?q=70",
+        category: "For women",
+        title: "Black ",
+        path: "/black/clothing/saree",
+         offer:" Upto 40% off"
+      },
+      {
+        imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-sandal/k/2/h/-original-imagg4k9bmzxdhsa.jpeg?q=70",
+        category: "Shoes",
+        title: "Black ",
+        path: "/black/clothing/shoes",
+         offer:" Upto 50% off"
+      },
+      {
+        imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/j/o/q/4-5-years-girl-blk-galaxyxz-original-imah2wbmefyc6jqw.jpeg?q=70",
+        category: "For Kids",
+        title: "Black ",
+        path: "/black/clothing/kids",
          offer:" Upto 40% off"
       },
     ],
-    Pink: [
-      {
-        imageUrl: "https://example.com/pink-scarf.jpg",
-        category: "Pink",
-        title: "Pink Scarf",
-        path: "/pink/accessories/scarf",
-         offer:" Upto 70% off"
-      },
-      {
-        imageUrl: "https://example.com/pink-dress.jpg",
-        category: "Pink",
-        title: "Pink Dress",
-        path: "/pink/clothing/dress",
-         offer:" Upto 70% off"
-      },
-    ],
+    // Pink: [
+    //   {
+    //     imageUrl: "https://example.com/pink-scarf.jpg",
+    //     category: "Pink",
+    //     title: "Pink Scarf",
+    //     path: "/pink/accessories/scarf",
+    //      offer:" Upto 70% off"
+    //   },
+    //   {
+    //     imageUrl: "https://example.com/pink-dress.jpg",
+    //     category: "Pink",
+    //     title: "Pink Dress",
+    //     path: "/pink/clothing/dress",
+    //      offer:" Upto 70% off"
+    //   },
+    // ],
     Royal: [
       {
-        imageUrl: "https://example.com/royal-blouse.jpg",
-        category: "Royal",
-        title: "Royal Blue Blouse",
-        path: "/royal/clothing/blouse",
+        imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/7/t/u/free-diamond-grey-saree-sangath-unstitched-original-imaghbzrk8t3chgb.jpeg?q=70",
+        category: "Royal Blue",
+        title: "Royal Blue Saree",
+        path: "/royal/clothing/saree",
          offer:" Upto 20% off"
       },
       {
-        imageUrl: "https://example.com/royal-jewelry.jpg",
-        category: "Royal",
-        title: "Royal Jewelry",
-        path: "/royal/accessories/jewelry",
+        imageUrl: "https://m.media-amazon.com/images/I/51UtTgf7inL._SX300_SY300_QL70_FMwebp_.jpg",
+        category: "Wall-paper",
+        title: "Royal Wallpapers",
+        path: "/royal/decoration/wallpaper",
+         offer:" Upto 30% off"
+      }, {
+        imageUrl: "https://m.media-amazon.com/images/I/61RO88bv8WL._AC_UL480_FMwebp_QL65_.jpg",
+        category: "Royal Fabrics",
+        title: "Fabrics",
+        path: "/royal/fabrics/clothes",
+         offer:" Upto 30% off"
+      },
+      {
+        imageUrl: "https://m.media-amazon.com/images/I/51V+BYgx51L._AC_UL480_FMwebp_QL65_.jpg",
+        category: "Royal Dress",
+        title: "dress",
+        path: "/royal/clothing/dress",
          offer:" Upto 30% off"
       },
     ],
@@ -139,22 +180,6 @@ const carouseldata = {
         title: "Furniture",
         path: "/home/furniture",
          offer:" Upto 90% off"
-      },
-    ],
-    DailyNeeds: [
-      {
-        imageUrl: "https://example.com/necessities.jpg",
-        category: "Needs",
-        title: "Daily Necessities",
-        path: "/needs/necessities",
-         offer:" Upto 80% off"
-      },
-      {
-        imageUrl: "https://example.com/health-products.jpg",
-        category: "Needs",
-        title: "Health Products",
-        path: "/needs/health-products",
-         offer:" Upto 20% off"
       },
     ],
     Grocery: [

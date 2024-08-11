@@ -29,7 +29,7 @@ const Homepage = () => {
       <Vedios />
       <div className="my-16">
         {sections.map(({ name }) => (
-          <div key={name} className="relative my-8"> {/* Adjusted to include margin for gaps */}
+          <div key={name} className="relative my-6"> {/* Adjusted to include margin for gaps */}
            
             <HomeSectionCarousel sectionName={name as 'Kids' | 'Women' | 'Black'  | 'Royal' | 'Home' | 'Grocery' } />
           </div>

@@ -121,22 +121,7 @@ const carouseldata = {
          offer:" Upto 40% off"
       },
     ],
-    // Pink: [
-    //   {
-    //     imageUrl: "https://example.com/pink-scarf.jpg",
-    //     category: "Pink",
-    //     title: "Pink Scarf",
-    //     path: "/pink/accessories/scarf",
-    //      offer:" Upto 70% off"
-    //   },
-    //   {
-    //     imageUrl: "https://example.com/pink-dress.jpg",
-    //     category: "Pink",
-    //     title: "Pink Dress",
-    //     path: "/pink/clothing/dress",
-    //      offer:" Upto 70% off"
-    //   },
-    // ],
+    
     Royal: [
       {
         imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/7/t/u/free-diamond-grey-saree-sangath-unstitched-original-imaghbzrk8t3chgb.jpeg?q=70",
@@ -198,22 +183,7 @@ const carouseldata = {
          offer:" Upto 70% off"
       },
     ],
-    Bags: [
-      {
-        imageUrl: "https://example.com/travel-bag.jpg",
-        category: "Bag",
-        title: "Travel Bag",
-        path: "/bags/travel",
-         offer:" Upto 70% off"
-      },
-      {
-        imageUrl: "https://example.com/handbag.jpg",
-        category: "Bag",
-        title: "Handbag",
-        path: "/bags/handbag",
-         offer:" Upto 70% off"
-      },
-    ],
+   
     Kitchen: [
       {
         imageUrl: "https://example.com/kitchen-utensils.jpg",

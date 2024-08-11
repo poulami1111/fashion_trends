@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import HomeSectionCard from '@/components/Homecards';
 import carouseldata from '@/components/carouseldata';

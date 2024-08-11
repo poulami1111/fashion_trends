@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
                 className="bg-[#ffc234] text-white mt-10 text-left"
             >
                 <Grid item xs={12} sm={6} md={3}>
-                    <Typography className="pb-5" variant="h6">Dutta's Cart</Typography>
+                    <Typography className="pb-5" variant="h6">Fashion Trends</Typography>
                     <div>
                         <button className="pb-5">About Us</button>
                     </div>

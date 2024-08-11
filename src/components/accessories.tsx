@@ -1,7 +1,7 @@
-'use client';
+
 
 import React from "react";
-import HomeSectionCard from "./Homecards";
+
 
 const MobileAccessoriesPage: React.FC = () => {
     

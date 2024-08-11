@@ -34,7 +34,7 @@ const HomeSectionCarousel: React.FC<HomeSectionCarouselProps> = ({ sectionName }
       <div className="flex flex-wrap gap-6">
         {items.length > 0 ? items : <div>No items available</div>}
         <div className="rounded-lg gap-4 shadow-lg flex justify-center items-center">
-          <SeeMoreButton destination={`/filters/${sectionName.toLowerCase()}`} />
+          <SeeMoreButton destination={`/product_details/${sectionName.toLowerCase()}`} />
         </div>
       </div>
     </div>

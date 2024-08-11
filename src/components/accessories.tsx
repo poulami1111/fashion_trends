@@ -17,7 +17,7 @@ const MobileAccessoriesPage: React.FC = () => {
               <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" className="wMLTcO"></path>
             </svg>
             <div className="r2CdBx">
-            <a className="ml-3" href="/mobiles-accessories/pr?sid=tyy&marketplace=FLIPKART">Mobiles &amp; Accessories</a>
+            <a className="ml-3 mt-4" href="/mobiles-accessories/pr?sid=tyy&marketplace=FLIPKART">Mobiles &amp; Accessories</a>
             
           </div>
           </div>
@@ -42,7 +42,7 @@ const MobileAccessoriesPage: React.FC = () => {
         <span className="mt-4">(Showing 1 – 40 products of 69,987 products)</span>
         </div>
        
-        <div className="flex flex-wrap text-lg justify-between gap-20 mt-5 ">
+        <div className="flex flex-wrap text-lg justify-between gap-10 mt-5 ">
           <span className="viJOii">Sort By</span>
           <div className="zg-M3Z _0H7xSG">Popularity</div>
           <div className="zg-M3Z">Price -- Low to High</div>

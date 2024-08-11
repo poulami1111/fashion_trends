@@ -22,12 +22,12 @@ const Page: React.FC = () => {
             <FilterComponent/>
             </div>
             
-     <div className="w-[80rem] flex-col">
+     <div className="w-[100rem] flex-col">
         <MobileAccessoriesPage/>
    
      <div>
-     <div className=" mt-6 mb-8 flex flex-wrap justify between py-8 px-10">
-           <HomeSectionCard product={product}/>
+     <div className=" mt-6 mb-8 flex flex-wrap justify between py-8 px-10 gap-4">
+           <HomeSectionCard  product={product} />
            <HomeSectionCard product={product}/>
            <HomeSectionCard product={product}/>
            <HomeSectionCard product={product}/>

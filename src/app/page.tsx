@@ -7,7 +7,7 @@ const Page: React.FC = () => {
  
   return (
     <>
-     <div>
+     <div className="mb-20">
       <Homepage/>
     </div></>
    

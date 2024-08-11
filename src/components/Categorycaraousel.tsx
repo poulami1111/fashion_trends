@@ -27,10 +27,10 @@ const CategoryCarousel: React.FC<CategoryCarouselProps> = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} onClick={() => handleItemClick(item.path)} className="cursor-pointer">
           {/* Replace with HomeSectionCard or any other card component */}
-          <div className="bg-white p-4 w-[20rem] h-auto rounded shadow-lg">
-            <img src={item.imageUrl} alt={item.title} className="w-auto h-auto object-cover rounded" />
-            <h3 className="mt-2 text-lg font-semibold">{item.title}</h3>
-            <p className="text-gray-600">{item.offer}</p>
+          <div className="bg-transparent border border-yellow-50 p-4 w-[22rem] h-[30rem] items-center justify-center rounded shadow-lg shadow-black hover:shadow-2xl hover:shadow-yellow-500">
+            <img src={item.imageUrl} alt={item.title} className="w-auto h-[24rem] object-cover rounded" />
+            <h3 className="mt-4 text-xl text-white hover:text-yellow-500 text-center font-semibold">{item.title}</h3>
+            <p className="text-gray-50 hover:text-yellow-500 text-center">{item.offer}</p>
           </div>
         </div>
       ))}

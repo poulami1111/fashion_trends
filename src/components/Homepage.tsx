@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import Countdown from './countdown';
 
 import Vedios from './Vedios';
-import HomeSectionCarousel from './HomeSectionCaraousel';
+import HomeSectionCarousel from '@/app/homesectioncaraousel/page';
 
 const Homepage = () => {
    const targetDate = new Date().setHours(new Date().getHours() + 2);

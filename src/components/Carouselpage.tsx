@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const CarouselPage = () => {
   const links = [
@@ -69,7 +70,13 @@ const CarouselPage = () => {
       {links.map((link, index) => (
         <a key={index} href={link.href} className="block text-center flex-shrink-0">
           <div className="p-2 bg-white shadow-md rounded-lg">
-            <img src={link.imgSrc} alt={link.alt} className="mx-auto mb-2 w-24 h-24 object-cover rounded-full"/>
+            <Image
+              src={link.imgSrc}
+              alt={link.alt}
+              width={96}
+              height={96}
+              className="mx-auto mb-2 w-24 h-24 object-cover rounded-full"
+            />
             <div className="font-semibold">{link.label}</div>
           </div>
         </a>

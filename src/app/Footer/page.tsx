@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                 </Grid>
                 <Grid item xs={12} sx={{ pt: 3, borderTop: "1px solid white" }}>
                     <Typography variant="body2" align="center">
-                        &apos; 2024 Dutta's Cart. All rights reserved.
+                        &copy; 2024 Dutta&apos;s Cart. All rights reserved.
                     </Typography>
                 </Grid>
             </Grid>

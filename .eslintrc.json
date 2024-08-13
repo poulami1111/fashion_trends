@@ -1,3 +1,8 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "@next/next/no-img-element": "off",  // Example: Disables the rule for <img> elements
+    "no-console": "warn",  // Example: Changes the rule for console statements to a warning
+    "no-unused-vars": "off"  // Example: Disables the rule for unused variables
+  }
 }

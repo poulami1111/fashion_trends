@@ -1,0 +1,25 @@
+[
+    {
+      "id": 1,
+      "category": "Electronics",
+      "title": "Smartphone",
+      "offer": "10% off",
+      "imageUrl": "https://example.com/smartphone.jpg",
+      "name": "Smartphone Model X",
+      "description": "Latest model with advanced features",
+      "price": 499,
+      "path": "/products/smartphone-model-x"
+    },
+    {
+      "id": 2,
+      "category": "Home Appliances",
+      "title": "Blender",
+      "offer": "15% off",
+      "imageUrl": "https://example.com/blender.jpg",
+      "name": "Blender Pro 3000",
+      "description": "High-power blender with multiple speed settings",
+      "price": 89,
+      "path": "/products/blender-pro-3000"
+    }
+  ]
+  

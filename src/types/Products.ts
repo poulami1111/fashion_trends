@@ -7,7 +7,7 @@ export type Product = {
     imageUrl: string;
     name: string;
     description: string;
-    price: string;
+    price: number;
     path: string;  // Ensure this is included
   };
   

@@ -1,28 +1,35 @@
+'use client';
+
 import React from 'react';
-import { Product } from '@/types/Products';
 import products from '@/data/products.json';
 
-interface ProductViewProps {
+interface ProductDetailsProps {
   params: {
+    category: string;
     id: string;
   };
 }
 
-const ProductView: React.FC<ProductViewProps> = ({ params }) => {
-  const { id } = params;
+const ProductDetails: React.FC<ProductDetailsProps> = ({ params }) => {
+  const { category, id } = params;
 
-  // Debugging logs to check the id and products array
-  console.log('Product ID from params:', id);
-  console.log('Products:', products);
-
-  // Find the product based on the id from params
-  const product = products.find((p) => p.id === Number(id)) || null;
-
-  if (!product) {
-    return <p>Product not found</p>;
+  // Ensure category and id are defined and handle case sensitivity
+  if (!category || !id) {
+    return <p>Missing category or product ID.</p>;
   }
 
-  // Ensure price is a number
+  const lowercaseCategory = category.toLowerCase();
+
+  const product = products.find(
+    (p) =>
+      p.id === Number(id) &&
+      p.category.toLowerCase() === lowercaseCategory
+  );
+
+  if (!product) {
+    return <p>Product not found in the {category} category.</p>;
+  }
+
   const price = typeof product.price === 'string' ? parseFloat(product.price) : product.price;
 
   return (
@@ -88,7 +95,10 @@ const ProductView: React.FC<ProductViewProps> = ({ params }) => {
   );
 };
 
-export default ProductView;
+export default ProductDetails;
+
+
+
 
 
 

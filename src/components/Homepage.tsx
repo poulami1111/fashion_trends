@@ -24,7 +24,7 @@ const Homepage = () => {
   return (
     <div className='bg-black'>
       <Navbar />
-       <div className="my-10 ">
+       <div className=" ">
         <Countdown targetDate={targetDate} />
       </div> 
       <Vedios />

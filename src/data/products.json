@@ -1,25 +1,68 @@
 [
-    {
-      "id": 1,
-      "category": "Electronics",
-      "title": "Smartphone",
-      "offer": "10% off",
-      "imageUrl": "https://example.com/smartphone.jpg",
-      "name": "Smartphone Model X",
-      "description": "Latest model with advanced features",
-      "price": 499,
-      "path": "/products/smartphone-model-x"
-    },
-    {
-      "id": 2,
-      "category": "Home Appliances",
-      "title": "Blender",
-      "offer": "15% off",
-      "imageUrl": "https://example.com/blender.jpg",
-      "name": "Blender Pro 3000",
-      "description": "High-power blender with multiple speed settings",
-      "price": 89,
-      "path": "/products/blender-pro-3000"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "category": "Electronics",
+    "title": "Smartphone Model X",
+    "offer": "10% off",
+    "imageUrl": "https://m.media-amazon.com/images/I/61F6ZCZzSzL._AC_UL480_QL65_.jpg",
+    "description": "Latest model with advanced features",
+    "price": 499,
+    "path": "/products/1"
+  },
+  {
+    "id": 2,
+    "category": "Home Appliances",
+    "title": "Blender Pro 3000",
+    "offer": "15% off",
+    "imageUrl": "https://m.media-amazon.com/images/I/71F9kZZzSzL._AC_UL480_QL65_.jpg",
+    "description": "High-power blender with multiple speed settings",
+    "price": 89,
+    "path": "/products/2"
+  },
+  {
+    "id": 3,
+    "category": "Books",
+    "title": "The Great Gatsby",
+    "offer": "20% off",
+    "imageUrl": "https://m.media-amazon.com/images/I/81Af4gKNN6L._AC_UL480_QL65_.jpg",
+    "description": "Classic novel by F. Scott Fitzgerald",
+    "price": 15,
+    "path": "/products/3"
+  },
+  {
+    "id": 4,
+    "category": "Fashion",
+    "title": "Leather Jacket",
+    "offer": "25% off",
+    "imageUrl": "https://m.media-amazon.com/images/I/91lVptY2vLL._AC_UL480_QL65_.jpg",
+    "description": "Premium quality leather jacket",
+    "price": 120,
+    "path": "/products/4"
+  },
+  {
+    "id": 5,
+    "category": "kids",
+    "title": "Leather Jacket",
+    "offer": "20% off",
+    "imageUrl": "https://m.media-amazon.com/images/I/91lVptY2vLL._AC_UL480_QL65_.jpg",
+    "description": "Premium quality leather jacket",
+    "price": 120,
+    "path": "/products/5"
+  },
+  {
+    "id": 7,
+    "category": "kids",
+    "title": "Kids T-Shirt",
+    "price": 299.99,
+    "offer": "20% off",
+    "imageUrl": "/images/kids-tshirt.jpg"
+  },
+  {
+    "id": 8,
+    "category": "kids",
+    "title": "Kids Shoes",
+    "price": 499.99,
+    "offer": "10% off",
+    "imageUrl": "/images/kids-shoes.jpg"
+  }
+]

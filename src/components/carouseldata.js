@@ -91,66 +91,6 @@ const carouseldata = {
       offer: "Upto 30% off",
     },
   ],
-  Black: [
-    {
-      imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/r/s/u/l-hs-esd-boy-black-1109-kaspy-original-imagm2kprcvua6qt.jpeg?q=70",
-      category: "Black shirts",
-      title: "Black Shirt",
-      path: "/black/clothing/shirt",
-      offer: "Upto 70% off",
-    },
-    {
-      imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/q/u/b/free-kiyara-saree-hesika-unstitched-original-imahfyfugpjwstfp.jpeg?q=70",
-      category: "For women",
-      title: "Black Saree",
-      path: "/black/clothing/saree",
-      offer: "Upto 40% off",
-    },
-    {
-      imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-sandal/k/2/h/-original-imagg4k9bmzxdhsa.jpeg?q=70",
-      category: "Shoes",
-      title: "Black Shoes",
-      path: "/black/clothing/shoes",
-      offer: "Upto 50% off",
-    },
-    {
-      imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/kids-dress/j/o/q/4-5-years-girl-blk-galaxyxz-original-imah2wbmefyc6jqw.jpeg?q=70",
-      category: "For Kids",
-      title: "Black Kids Dress",
-      path: "/black/clothing/kids",
-      offer: "Upto 40% off",
-    },
-  ],
-  Royal: [
-    {
-      imageUrl: "https://rukminim2.flixcart.com/image/612/612/xif0q/sari/7/t/u/free-diamond-grey-saree-sangath-unstitched-original-imaghbzrk8t3chgb.jpeg?q=70",
-      category: "Royal Blue",
-      title: "Royal Blue Saree",
-      path: "/royal/clothing/saree",
-      offer: "Upto 20% off",
-    },
-    {
-      imageUrl: "https://m.media-amazon.com/images/I/51UtTgf7inL._SX300_SY300_QL70_FMwebp_.jpg",
-      category: "Wall-paper",
-      title: "Royal Wallpapers",
-      path: "/royal/decoration/wallpaper",
-      offer: "Upto 30% off",
-    },
-    {
-      imageUrl: "https://m.media-amazon.com/images/I/61RO88bv8WL._AC_UL480_FMwebp_QL65_.jpg",
-      category: "Royal Fabrics",
-      title: "Fabrics",
-      path: "/royal/fabrics/clothes",
-      offer: "Upto 30% off",
-    },
-    {
-      imageUrl: "https://m.media-amazon.com/images/I/51V+BYgx51L._AC_UL480_FMwebp_QL65_.jpg",
-      category: "Royal Dress",
-      title: "Royal Dress",
-      path: "/royal/clothing/dress",
-      offer: "Upto 30% off",
-    },
-  ],
   Home: [
     {
       imageUrl: "https://example.com/home-decor.jpg",

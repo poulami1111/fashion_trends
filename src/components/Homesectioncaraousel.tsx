@@ -30,7 +30,11 @@ const HomeSectionCarousel: React.FC<HomeSectionCarouselProps> = ({ sectionName }
   return (
     <div className="relative px-4 sm:px-6 lg:px-8">
       <div className="text-slate-50 font-bold text-2xl sm:text-3xl lg:text-[45px] mt-10 mb-6 z-10">
-        {sectionName}
+      <div className="bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-yellow-600">
+      {sectionName}
+</div>
+
+       
       </div>
       <div className="flex flex-wrap -mx-2">
         {items.length > 0 ? items : <div>No items available</div>}

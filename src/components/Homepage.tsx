@@ -11,14 +11,11 @@ const Homepage = () => {
 
   // Ensure these section names match exactly what is defined in HomeSectionCarousel's prop types
   const sections = [
-    { name: 'Kids', videoSrc: 'kids-video.mp4' },
-    { name: 'Women', videoSrc: 'women-video.mp4' },
-    { name: 'Men', videoSrc: 'men-video.mp4' },
-  
-    
-   
-    { name: 'Home', videoSrc: 'home-video.mp4' },
-    { name: 'Grocery', videoSrc: 'grocery-video.mp4' },
+    { name: 'Kids' },
+    { name: 'Women' },
+    { name: 'Men' },
+    { name: 'Home' },
+    { name: 'Grocery' },
   ];
 
   return (
@@ -29,12 +26,15 @@ const Homepage = () => {
       </div> 
       <Vedios />
       <div className="my-16">
-        {sections.map(({ name }) => (
+      
+      {sections.map(({ name }) => (
           <div key={name} className="relative my-6 "> {/* Adjusted to include margin for gaps */}
            
             <HomeSectionCarousel sectionName={name as 'Kids' | 'Women' |   'Home' | 'Grocery' } />
           </div>
         ))}
+
+       
       </div>
       <div className='my-19'>
         <Footer/>

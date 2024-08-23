@@ -16,7 +16,7 @@ const Homepage = () => {
     { name: 'Men', videoSrc: 'men-video.mp4' },
     { name: 'Black', videoSrc: 'black-video.mp4' },
     
-    { name: 'Royal', videoSrc: 'royal-video.mp4' },
+   
     { name: 'Home', videoSrc: 'home-video.mp4' },
     { name: 'Grocery', videoSrc: 'grocery-video.mp4' },
   ];
@@ -32,7 +32,7 @@ const Homepage = () => {
         {sections.map(({ name }) => (
           <div key={name} className="relative my-6 "> {/* Adjusted to include margin for gaps */}
            
-            <HomeSectionCarousel sectionName={name as 'Kids' | 'Women' | 'Black'  | 'Royal' | 'Home' | 'Grocery' } />
+            <HomeSectionCarousel sectionName={name as 'Kids' | 'Women' | 'Black'  |  'Home' | 'Grocery' } />
           </div>
         ))}
       </div>

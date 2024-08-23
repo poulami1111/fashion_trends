@@ -64,7 +64,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ params }) => {
         <div className="text-gray-700 mb-4">
           <p>Inclusive of all taxes</p>
           <p>In stock</p>
-          <p>Delivered by: Amazon</p>
+          <p>Delivered by: Fashion Trends</p>
           <p>Sold by: BRICS INDIA TRADE PVT LTD</p>
         </div>
 

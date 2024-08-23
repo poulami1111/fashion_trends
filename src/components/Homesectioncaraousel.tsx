@@ -34,7 +34,7 @@ const HomeSectionCarousel: React.FC<HomeSectionCarouselProps> = ({ sectionName }
       </div>
       <div className="flex flex-wrap -mx-2">
         {items.length > 0 ? items : <div>No items available</div>}
-        <div className="ml-[650px] mt-3 w-full sm:w-1/2 lg:w-1/4 p-2 flex justify-center items-center">
+        <div className="ml-[625px] mt-3 w-full sm:w-1/2 lg:w-1/4 p-2 flex justify-center items-center">
           <SeeMoreButton destination={`/products/Category/${sectionName.toLowerCase()}`} />
         </div>
       </div>

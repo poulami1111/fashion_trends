@@ -28,7 +28,7 @@ const Homepage = () => {
       <div className="my-16">
       
       {sections.map(({ name }) => (
-          <div key={name} className="relative my-6 "> {/* Adjusted to include margin for gaps */}
+          <div key={name} className="relative my-6  font-[Bungee Tint]">
            
             <HomeSectionCarousel sectionName={name as 'Kids' | 'Women' |   'Home' | 'Grocery' } />
           </div>
@@ -36,7 +36,7 @@ const Homepage = () => {
 
        
       </div>
-      <div className='my-19'>
+      <div >
         <Footer/>
       </div>
     </div>

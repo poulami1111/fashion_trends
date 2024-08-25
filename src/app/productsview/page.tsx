@@ -1,22 +1,24 @@
 import React from 'react';
-import { Product } from '@/types/Products';
-import products from '@/data/products.json';
 
-interface ProductViewProps {
-  params: {
-    id: string;
-  };
+interface Product {
+  id: number;
+  imageUrl: string;
+  title: string;
+  price: number | string;
+  offer: string;
 }
 
-const ProductView: React.FC<ProductViewProps> = ({ params }) => {
-  const { id } = params;
+interface ProductViewProps {
+  products: Product[];
+  id: string; // id is a string, as it comes from URL params or a similar source
+}
 
-  // Debugging logs to check the id and products array
-  console.log('Product ID from params:', id);
-  console.log('Products:', products);
+const ProductView: React.FC<ProductViewProps> = ({ products, id }) => {
+  // Convert id to a number for comparison
+  const productId = Number(id);
 
-  // Find the product based on the id from params
-  const product = products.find((p) => p.id === Number(id)) || null;
+  // Find the product based on the id
+  const product = products.find((p) => p.id === productId) || null;
 
   if (!product) {
     return <p>Product not found</p>;
@@ -89,6 +91,9 @@ const ProductView: React.FC<ProductViewProps> = ({ params }) => {
 };
 
 export default ProductView;
+
+
+
 
 
 

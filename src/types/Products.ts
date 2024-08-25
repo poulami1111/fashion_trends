@@ -11,4 +11,4 @@ export type Product = {
     path: string;  // Ensure this is included
   };
   
-  
+
